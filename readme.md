@@ -9,16 +9,16 @@
 
 ## About rhsalud
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects.
+rhsalud is a web application development with Laravel framework.
 
 ## Contributing
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+Thank you for considering contributing to the rhsalud! please send an e-mail to Admin via [contacto@ingenieriaensoluciones.com](mailto:contacto@ingenieriaensoluciones.com).
 
 ## Security Vulnerabilities
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+If you discover a security vulnerability within Laravel, please send an e-mail to Admin via [contacto@ingenieriaensoluciones.com](mailto:contacto@ingenieriaensoluciones.com). All security vulnerabilities will be promptly addressed.
 
 ## License
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+The rhsalud is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
