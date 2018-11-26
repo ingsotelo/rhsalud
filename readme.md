@@ -17,7 +17,7 @@ Thank you for considering contributing to the rhsalud! please send an e-mail to 
 
 ## Security Vulnerabilities
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Admin via [contacto@ingenieriaensoluciones.com](mailto:contacto@ingenieriaensoluciones.com). All security vulnerabilities will be promptly addressed.
+If you discover a security vulnerability within rhsalud, please send an e-mail to Admin via [contacto@ingenieriaensoluciones.com](mailto:contacto@ingenieriaensoluciones.com). All security vulnerabilities will be promptly addressed.
 
 ## License
 

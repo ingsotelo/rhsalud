@@ -11,6 +11,13 @@
 |
 */
 
+Route::get('/refreshcaptcha', function () {
+    return response()->json(['captcha'=> captcha_img()]);
+});
+
 Route::get('/', function () {
     return view('welcome');
 });
+
+Auth::routes(['verify' => true]);//Auth::routes();
+Route::get('/home', 'HomeController@index')->name('home');
