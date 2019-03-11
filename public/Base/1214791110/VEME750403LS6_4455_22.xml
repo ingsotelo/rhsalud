@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<cfdi:Comprobante xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cfdi="http://www.sat.gob.mx/cfd/3" xmlns:nomina12="http://www.sat.gob.mx/nomina12" xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv33.xsd http://www.sat.gob.mx/nomina12 http://www.sat.gob.mx/sitio_internet/cfd/nomina/nomina12.xsd" Version="3.3" Serie="BASE-11-22-2018" Folio="4455" Fecha="2018-11-28T21:06:20" Sello="U1LZEl8tHnROSj0HruyAin0FyV6vkv6akyjuiCztfco1syOnFFPeMXWWEhi4ZzMXQXYP/IvMCi7XGYTQvim2c/kreR4yn1nFgA1o4xW1lYnMTNmnUPyE9LNlrZCLFI8kv480yRw71+DKHCp0LW9ruDAXj9uTYhAhbLw8L+48PNjw/F/Fym1D6PgoGUFA2IPs0va08tuejNdV1Qh83jGm00ts9iCeZjQ2C76olhRlBnD5qWHGLFLG3aRYysuJ+aBeERZ6mX9ISkdJBUOwJqJegtFZ5Xm4Ojfz0AYB14WU+hWvDfRTv4BElen1/Y0sumJVt9rW6SUkLibaHO1gS5l6lA==" FormaPago="99" NoCertificado="00001000000406440624" Certificado="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" SubTotal="14495.77" Descuento="7112.17" Total="7383.60" Moneda="MXN" TipoDeComprobante="N" MetodoPago="PUE" LugarExpedicion="39090">
+  <cfdi:Emisor Rfc="SES870401TX8" Nombre="SERVICIOS ESTATALES DE SALUD" RegimenFiscal="603"/>
+  <cfdi:Receptor Rfc="VEME750403LS6" Nombre="VELAZQUEZ MEJIA ELIZABETH" UsoCFDI="P01"/>
+  <cfdi:Conceptos>
+    <cfdi:Concepto ClaveProdServ="84111505" Cantidad="1" ClaveUnidad="ACT" Descripcion="Pago de n&#xF3;mina" ValorUnitario="14495.77" Importe="14495.77" Descuento="7112.17"/>
+  </cfdi:Conceptos>
+  <cfdi:Complemento>
+    <tfd:TimbreFiscalDigital xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/sitio_internet/cfd/TimbreFiscalDigital/TimbreFiscalDigitalv11.xsd" Version="1.1" UUID="91218DCB-FFCA-42A0-9B25-7AFD67F32942" FechaTimbrado="2018-11-28T23:30:08" RfcProvCertif="IAD121214B34" SelloCFD="U1LZEl8tHnROSj0HruyAin0FyV6vkv6akyjuiCztfco1syOnFFPeMXWWEhi4ZzMXQXYP/IvMCi7XGYTQvim2c/kreR4yn1nFgA1o4xW1lYnMTNmnUPyE9LNlrZCLFI8kv480yRw71+DKHCp0LW9ruDAXj9uTYhAhbLw8L+48PNjw/F/Fym1D6PgoGUFA2IPs0va08tuejNdV1Qh83jGm00ts9iCeZjQ2C76olhRlBnD5qWHGLFLG3aRYysuJ+aBeERZ6mX9ISkdJBUOwJqJegtFZ5Xm4Ojfz0AYB14WU+hWvDfRTv4BElen1/Y0sumJVt9rW6SUkLibaHO1gS5l6lA==" NoCertificadoSAT="00001000000403442064" SelloSAT="YVPFNABxbcW0nLzy7IsIZwJQdpNTa12Vouf51hH4kZoWomZp2+qu6n3PfrIV3gc3MLCv1EntEAm5+BkFKwLmXdn+SiYw3I/soeD2cZUbdQWfCltX+vUUqW/2L7JH0XHkLmHFH4mkFgJkoYjnTXdkuWfuFTmLyQ1gMKd+T2nf+MyhzB40CwlUMT/wDMBka6tkTbGSZ/nO80AFU/T9WggehgZwoXSCdXlG8nVhkQN5kbAmcXs4WL6z727Q0AF3+4IEZKnCXqtYkCuQ0E7nlWO7i4M6NixZ9vRNMgWZczk8yKUxQvDeh1tnZJjxKjAW7s4+u+qfY9DoB7YEJ6YfEfuF/w=="/>
+    <nomina12:Nomina Version="1.2" TipoNomina="O" FechaPago="2018-11-30" FechaInicialPago="2018-11-16" FechaFinalPago="2018-11-30" NumDiasPagados="15" TotalPercepciones="14495.77" TotalDeducciones="7112.17">
+      <nomina12:Emisor RfcPatronOrigen="SES870401TX8" RegistroPatronal="24769141013">
+        <nomina12:EntidadSNCF OrigenRecurso="IF"/>
+      </nomina12:Emisor>
+      <nomina12:Receptor ClaveEntFed="GRO" Curp="VEME750403MGRLJL00" NumSeguridadSocial="80017573595" FechaInicioRelLaboral="2001-03-01" Antigüedad="P212W" TipoContrato="01" Sindicalizado="S&#xED;" TipoJornada="01" TipoRegimen="02" NumEmpleado="1200009178" Departamento="HOSPITAL GENERAL DE TAXCO DE ALARCON  GRO" Puesto="ENFERMERA GENERAL TITULADA C" RiesgoPuesto="3" PeriodicidadPago="04" SalarioDiarioIntegrado="461.45"/>
+      <nomina12:Percepciones TotalExento="0.00" TotalGravado="14495.77" TotalSueldos="14495.77" TotalSeparacionIndemnizacion="0.00" TotalJubilacionPensionRetiro="0.00">
+        <nomina12:Percepcion Clave="10700" Concepto="SUELDOS BASE" ImporteExento="0.00" ImporteGravado="6617.00" TipoPercepcion="001"/>
+        <nomina12:Percepcion Clave="1A300" Concepto="PRIMA QUINQUENAL POR  15 A&#xD1;OS DE SERVICIO" ImporteExento="0.00" ImporteGravado="117.50" TipoPercepcion="038"/>
+        <nomina12:Percepcion Clave="130MR" Concepto="COMPENSACIONES ADICIONALES POR SERV ESPECIALES MEDIANO RIESGO" ImporteExento="0.00" ImporteGravado="661.70" TipoPercepcion="038"/>
+        <nomina12:Percepcion Clave="14200" Concepto="ASIGNACION BRUTA" ImporteExento="0.00" ImporteGravado="3393.00" TipoPercepcion="038"/>
+        <nomina12:Percepcion Clave="155AG" Concepto="AYUDA PARA GASTOS DE ACTUALIZACION" ImporteExento="0.00" ImporteGravado="2518.50" TipoPercepcion="038"/>
+        <nomina12:Percepcion Clave="14600" Concepto="AYUDA PARA SERVICIOS PASAJES" ImporteExento="0.00" ImporteGravado="282.50" TipoPercepcion="038"/>
+        <nomina12:Percepcion Clave="13800" Concepto="AYUDA DE DESPENSA" ImporteExento="0.00" ImporteGravado="392.50" TipoPercepcion="038"/>
+        <nomina12:Percepcion Clave="14400" Concepto="PREVISION SOCIAL MULTIPLE" ImporteExento="0.00" ImporteGravado="292.50" TipoPercepcion="038"/>
+        <nomina12:Percepcion Clave="132PD" Concepto="PRIMA DOMINICAL" ImporteExento="0.00" ImporteGravado="220.57" TipoPercepcion="020"/>
+      </nomina12:Percepciones>
+      <nomina12:Deducciones TotalOtrasDeducciones="4638.51" TotalImpuestosRetenidos="2473.66">
+        <nomina12:Deduccion TipoDeduccion="002" Clave="20100" Concepto="IMPUESTO SOBRE LA RENTA" Importe="2449.20"/>
+        <nomina12:Deduccion TipoDeduccion="003" Clave="202SR" Concepto="SEGURO DE RETIRO  ISSSTE" Importe="453.02"/>
+        <nomina12:Deduccion TipoDeduccion="019" Clave="25800" Concepto="CUOTAS SINDICALES" Importe="132.34"/>
+        <nomina12:Deduccion TipoDeduccion="004" Clave="27000" Concepto="FONDO DE AHORRO PARA AUXILIO DE DEFUNCION" Importe="5.00"/>
+        <nomina12:Deduccion TipoDeduccion="004" Clave="27700" Concepto="SEGURO COLECTIVO DE RETIRO" Importe="5.35"/>
+        <nomina12:Deduccion TipoDeduccion="001" Clave="204SS" Concepto="SEGURO DE SALUD DE LOS TRABAJADORES EN ACTIVO Y FAMILIARES DERECHOHABIENTES" Importe="203.40"/>
+        <nomina12:Deduccion TipoDeduccion="001" Clave="204SP" Concepto="SEGURO DE SALUD DE LOS PENSIONISTAS Y FAMILIARES DERECHOHABIENTES" Importe="46.23"/>
+        <nomina12:Deduccion TipoDeduccion="003" Clave="202SI" Concepto="SEGURO DE INVALIDEZ Y VIDA  ISSSTE" Importe="46.23"/>
+        <nomina12:Deduccion TipoDeduccion="001" Clave="202SS" Concepto="SERVICIOS SOCIALES Y CULTURALES  ISSSTE" Importe="36.98"/>
+        <nomina12:Deduccion TipoDeduccion="004" Clave="26430" Concepto="AMORTIZACION FOVISSSTE S M  30 " Importe="2218.86"/>
+        <nomina12:Deduccion TipoDeduccion="004" Clave="23400" Concepto="SEGURO DE RESPONSABILIDAD PROFESIONAL PARA PERSONAL MEDICOS Y DE ENFERMERIA" Importe="16.12"/>
+        <nomina12:Deduccion TipoDeduccion="004" Clave="20324" Concepto="PRESTAMOS DEL ISSSTE 25/00" Importe="973.21"/>
+        <nomina12:Deduccion TipoDeduccion="004" Clave="221FA" Concepto="DESCUENTO AL TRABAJADOR INSCRITO AL FONAC" Importe="243.27"/>
+        <nomina12:Deduccion TipoDeduccion="004" Clave="246SA" Concepto="ADQUISICION DE BIENES Y SERVICIOS SSA  SEGUROS ARGOS  S A  DE C  V " Importe="250.00"/>
+        <nomina12:Deduccion TipoDeduccion="004" Clave="26500" Concepto="SEGURO DE DANOS FOVISSSTE" Importe="8.50"/>
+        <nomina12:Deduccion TipoDeduccion="002" Clave="201PD" Concepto="ISR PRIMA DOMINICAL" Importe="24.46"/>
+      </nomina12:Deducciones>
+    </nomina12:Nomina>
+  </cfdi:Complemento>
+</cfdi:Comprobante>

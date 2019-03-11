@@ -72,11 +72,16 @@
 
                 <div class="links">
                     @auth
-                        <a href="{{ url('/home') }}">Inicio</a>
+                        @can('isAdmin')
+                            <a href="{{ route('dashboard') }}">Panel de Control</a>
+                        @elsecan('isUser')
+                            <a href="{{ url('/home') }}">Inicio</a>
+                        @endcan
                     @else
                         <a href="{{ route('login') }}">Iniciar sesión</a>
                     @endauth
                 </div>
+
             </div>
         </div>
     </body>

@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Gate;
 
 
+
 class HomeController extends Controller
 {
     /**
@@ -25,8 +26,19 @@ class HomeController extends Controller
      * @return \Illuminate\Http\Response
      */
     public function index()
-    {
-        return view('home');
+    {   
+        if (\Auth::user()->role == 'Administrador') {
+            return view('dashboard');
+        }
+
+        $cfdis = \DB::select('SELECT * FROM rhsalud.cfdis WHERE name = "'.\Auth::user()->name.'";');
+
+        $data = [
+            'cfdis' => $cfdis,
+        ];
+
+        return view('home', $data);
+
     }
 
     /**
@@ -36,8 +48,8 @@ class HomeController extends Controller
      */
     public function dashboard()
     {
-        if (Gate::denies('isAdmin')) {
-            abort(403,"Lo siento, Usted no tiene autorizado el acceso a este recurso");
+        if (\Auth::user()->role == 'Usuario') {
+            return view('home');
         }
 
         return view('dashboard');

@@ -48,14 +48,29 @@ class RegisterController extends Controller
      */
     protected function validator(array $data)
     {
+        Validator::extend('chkemail', function ($attribute, $value, $parameters, $validator) {
+            $name = array_get($validator->getData(), $parameters[0], null);
+            $user = User::where('name', $name)->first();
+            return  $value == $user->email;
+        });
+
         return Validator::make($data, [
-            'name' => ['required', 'string', 'max:13', 'unique:users'],
-            'email' => ['required', 'string', 'email', 'max:255', 'unique:users'],
+            'name' => ['required', 'string', 'max:13', 'exists:users',
+                function ($attribute, $value, $fail) {
+                    $user = User::where('name', $value)->first();
+                    if ($user->email_verified_at != null) {
+                        $fail('Este RFC ya se encuentra registrado.');
+                    }
+                },         
+            ],
+            'email' => ['required','string', 'email', 'max:255', 'exists:users', 'chkemail:name'],
             'password' => ['required', 'string', 'min:6', 'confirmed'],
-            'captcha' => 'required|captcha',
-        ],[
+            'captcha' => 'required|captcha'],
+        [
             'captcha' => 'El captcha ingresado es incorrecto.',
+            'chkemail' => 'El correo ingresado no corresponde al RFC'
         ]);
+
     }
 
     /**
@@ -66,11 +81,11 @@ class RegisterController extends Controller
      */
     protected function create(array $data)
     {
-        return User::create([
-            'name' => $data['name'],
-            'email' => $data['email'],
-            'password' => Hash::make($data['password']),
-        ]);
+
+        $user =  User::where('name', $data['name'])->first();
+        $user->password = Hash::make($data['password']);
+        $user->save();
+        return $user;
     }
 
     

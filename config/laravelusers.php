@@ -8,11 +8,7 @@ return [
     |--------------------------------------------------------------------------
     */
 
-    // The parent blade file
-    'laravelUsersBladeExtended'     => 'layouts.app', //'laravelusers::layouts.app', 
-
     // Enable `auth` middleware
-    'authEnabled'                   => true,
 
     // Enable Optional Roles Middleware on the users assignments
     'rolesEnabled'                  => false,
@@ -32,24 +28,11 @@ return [
     // Optional Role Model
     'roleModel'                     => 'jeremykenedy\LaravelRoles\Models\Role',
 
-    // Enable Soft Deletes - Not yet setup - on the roadmap.
-    'softDeletedEnabled'            => false,
-
-    // Laravel Default User Model
-    'defaultUserModel'              => 'App\User',
-
-    // Use the provided blade templates or extend to your own templates.
-    'showUsersBlade'                => 'laravelusers::usersmanagement.show-users',
-    'createUserBlade'               => 'laravelusers::usersmanagement.create-user',
-    'showIndividualUserBlade'       => 'laravelusers::usersmanagement.show-user',
-    'editIndividualUserBlade'       => 'laravelusers::usersmanagement.edit-user',
 
     // Use Package Bootstrap Flash Alerts
     'enablePackageBootstapAlerts'   => true,
 
-    // Users List Pagination
-    'enablePagination'              => true,
-    'paginateListSize'              => 25,
+   
 
     // Enable Search Users- Uses jQuery Ajax
     'enableSearchUsers'             => true,
@@ -57,8 +40,8 @@ return [
     // Users List JS DataTables - not recommended use with pagination
     'enabledDatatablesJs'           => false,
     'datatablesJsStartCount'        => 25,
-    'datatablesCssCDN'              => 'https://cdn.datatables.net/1.10.12/css/dataTables.bootstrap.min.css',
-    'datatablesJsCDN'               => 'https://cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js',
+
+
     'datatablesJsPresetCDN'         => 'https://cdn.datatables.net/1.10.12/js/dataTables.bootstrap.min.js',
 
     // Bootstrap Tooltips
